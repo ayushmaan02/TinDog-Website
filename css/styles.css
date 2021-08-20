@@ -55,11 +55,25 @@ p{
     transform: rotate(25deg);
 }
 
-#features{
+
+/* Feature Box */
+#features{                                                  
     padding: 7% 15%;
 }
+/* .row{
+    padding: 7% 15%;
+} */
 
 .feature-box{
     text-align: center;
     padding: 5%;
+}
+
+.ic {
+ color: #ef8172;
+ margin-bottom: 1rem;
+}
+
+.ic:hover{
+    color: #ff4c68;
 }
