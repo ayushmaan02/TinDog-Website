@@ -2,15 +2,14 @@ body{
     font-family: "Montserrat";
 }
 
-
-#title{
-    background-color: #ff4c68;
-    color: white;
-}
-
 h1{
     font-family:"Montserrat black";
     font-size: 3.5rem;
+    line-height: 1.5;
+}
+h2{
+    font-family:"Montserrat black";
+    font-size: 3rem;
     line-height: 1.5;
 }
 
@@ -21,8 +20,14 @@ h3{
 p{
     color: #8f8f8f ;
 }
+
 .container-fluid{
-    padding: 3% 15%;
+    padding: 3% 15% 7%;
+}
+
+#title{
+    background-color: #ff4c68;
+    color: white;
 }
 
 /* Navigation Bar */
@@ -53,12 +58,16 @@ p{
 .img-title{
     width: 60%;
     transform: rotate(25deg);
+    position: absolute;
+    right: 30%;
 }
 
 
 /* Feature Box */
 #features{                                                  
     padding: 7% 15%;
+    background-color: white;
+    position: relative;
 }
 /* .row{
     padding: 7% 15%;
@@ -76,4 +85,88 @@ p{
 
 .ic:hover{
     color: #ff4c68;
+}
+
+/* Testimonials section */
+
+#testimonials{
+    text-align: center;
+    background-color: #ef8172;
+    color: white;
+}
+
+.testimonial-image{
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+}
+
+/* Press Section */
+#press{
+    background-color: #ef8172;
+    text-align: center;
+    padding-bottom: 3%;
+}
+
+.press-logo{
+    width: 15%;
+    margin: 20px 20px 50px;
+}
+
+.carousel-item{
+    padding: 7% 15%;
+}
+
+
+/* Pricing Section */
+#pricing{
+    padding: 100px;
+    text-align: center;
+}
+
+.pricing-col{
+    padding: 3% 2%;
+}
+
+
+/* Media Query breakpoints */
+@media (max-width: 1028px){
+    #title{
+        text-align: center;
+    }
+    .img-title{
+        position: static;
+        transform: rotate(0);
+    }
+}
+
+
+/* Call TO action */
+#cta{
+    background-color: #ff4c68;
+    color: white;
+    text-align: center;
+    padding: 7% 15%;
+}
+
+.cta{
+    font-size: 3.5rem;
+    line-height: 1.5;
+    font-family: "Montserrat black";
+}
+
+
+/* Footer */
+#footer{
+    background-color: white;
+    padding: 7% 15%;
+    text-align: center;
+}
+
+.ic2{
+
+    margin: 20px 10px;
+}
+.ic2:hover{
+    color:#ff4c68;
 }
